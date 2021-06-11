@@ -42,6 +42,7 @@ print(number_of_lines())
                 spam_confidence_sum = spam_confidence_sum + float(value)
                 count = count + 1
     return spam_confidence_sum/count
+    
     print(average_spam_confidence())
     
    # Write a function to find which day of the week the email ws sent?
