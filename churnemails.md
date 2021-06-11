@@ -32,6 +32,7 @@ print(number_of_lines())
  
  #Define a function average_spam_confidence which calculates the average spam confidence and returns it
  def average_spam_confidence():
+ 
     with open('/cxldata/datasets/project/mbox-short.txt') as f:
         count = 0
         spam_confidence_sum = 0
@@ -42,7 +43,6 @@ print(number_of_lines())
                 spam_confidence_sum = spam_confidence_sum + float(value)
                 count = count + 1
     return spam_confidence_sum/count
-    
     print(average_spam_confidence())
     
    # Write a function to find which day of the week the email ws sent?
@@ -64,6 +64,7 @@ print(number_of_lines())
     
 # Count number of messages from each email address
 def count_message_from_email():
+
     lineslist=[]
     emaildict={}
     with open("/cxldata/datasets/project/mbox-short.txt") as f:
@@ -79,6 +80,7 @@ def count_message_from_email():
     
   # Count number of messages from each domain
   def count_message_from_domain():
+  
     lineslist=[]
     domaindict={}
     with open("/cxldata/datasets/project/mbox-short.txt") as f:
