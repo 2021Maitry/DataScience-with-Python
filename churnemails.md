@@ -17,9 +17,8 @@ def number_of_lines():
 print(number_of_lines())
 
 #Write a function count_number_of_lines which returns the count of the number of lines starting with Subject: in the file
-def count_number_of_lines():
     
-    def count_number_of_lines():
+  def count_number_of_lines():
     
     fhand = open('/cxldata/datasets/project/mbox-short.txt')
     count = 0
@@ -28,6 +27,7 @@ def count_number_of_lines():
         if line.startswith('Subject:'):
             count +=1
     return count
+ 
  print(count_number_of_lines())
  
  #Define a function average_spam_confidence which calculates the average spam confidence and returns it
