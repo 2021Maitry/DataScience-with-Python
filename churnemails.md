@@ -6,6 +6,7 @@ Python Project - Churn Emails
 To see the first 15 lines of mbox-short.txt, please use below command on the console(from jupyter notebook)
 !head -n 15 /cxldata/datasets/project/mbox-short.txt
 def number_of_lines():
+
     fhand = open('/cxldata/datasets/project/mbox-short.txt')
     inp = fhand.read()
     fhand.close()
